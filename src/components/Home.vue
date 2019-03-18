@@ -35,7 +35,7 @@
     <section class="collaboration">
       <div class="container">
         <h2>Get in touch!</h2>
-        <p>Always interested collaborating</p>
+        <p>Always interested in collaborating</p>
         <router-link class="btn" to="/contact">Contact</router-link>
       </div>
     </section>
