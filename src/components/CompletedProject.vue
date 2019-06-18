@@ -3,7 +3,7 @@
         <div class="project-thumbnail">
           <img :src=thumbnail alt="Project Thumbnail"/>
         </div>
-        <p class="btn secondary" target="_blank" to="/portfolio">Portfolio</p>
+        <a :href=github class="btn secondary" target="_blank" >Project Github</a>
     </div>
 </template>
 
@@ -12,7 +12,7 @@ export default {
   name: 'CompletedProject',
   props: {
     thumbnail: String,
-    url: String,
+    github: String
   },
 };
 </script>
@@ -39,14 +39,17 @@ export default {
         @media(max-width: 1200px) {
             width: 300px;
             height: 190px;
+            overflow: hidden;
         }
         @media(max-width: 1075px) {
             width: 400px;
             height: 220px;
             margin-bottom: 32px;
+            overflow: hidden;
         }
         @media(max-width: 520px) {
-          width: 340px;
+            width: 340px;
+            overflow: hidden;
         }
     }
     .btn {

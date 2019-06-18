@@ -27,7 +27,7 @@
       <div class="container">
         <h2>Projects</h2>
         <div class="projects-holder f-row">
-          <CompletedProject v-for="singleProject in CompletedProjects" :key="'item-'+singleProject.thumbnail" :thumbnail="singleProject.thumbnail" />
+          <CompletedProject v-for="singleProject in CompletedProjects" :key="'item-'+singleProject.thumbnail" :thumbnail="singleProject.thumbnail" :github="singleProject.github" />
         </div>
       </div>
       <router-link class="btn secondary" to="/portfolio">See my work</router-link>
@@ -74,13 +74,16 @@ export default {
       ],
       CompletedProjects: [
         {
-          thumbnail: 'https://victorthemes.com/wp-content/uploads/2017/06/presentation_800_x_600.jpg'
+          thumbnail: 'https://res.cloudinary.com/dvbethtz8/image/upload/v1560826712/q-bot_jvavol.png',
+          github: 'https://www.github.com/team-q/q-bot-sandbox'
         },
         {
-          thumbnail: 'https://www.glassdoor.com/app/static/img/home/value-prop/sal/value-prop-carousel-desk.EN.png?v=6ba3d4nsa'
+          thumbnail: 'https://res.cloudinary.com/dvbethtz8/image/upload/v1560826937/bills_phone-14991987f315ce9978b1f4f0456f1e5807d4642f6c08c7118dfd26704ce9ad56_1_do53pf.png',
+          github: 'https://github.com/ErlendLygre/wagefinder'
         },
         {
-          thumbnail: 'https://storage.googleapis.com/sales.appinst.io/2017/09/twitter-lite-pwa-example.png'
+          thumbnail: 'https://res.cloudinary.com/dvbethtz8/image/upload/v1560826638/zoo-photo_1_1_xbpndn.png',
+          github: 'https://github.com/team-zoo/zoo-backend'
         },
       ],
       header: 'Hello, I am <span>Aaron</span>',

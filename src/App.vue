@@ -20,19 +20,16 @@
         </div>
         <p>You can also find me here</p>
         <div class="socials f-row">
-          <a href="#" target="_blank" class="single-social github">
+          <a href="https://www.github.com/AaronD87" target="_blank" class="single-social github">
             <img src="../src/assets/github.svg" alt="Github logo">
           </a>
-          <a href="#" target="_blank" class="single-social linkedin">
+          <a href="https://www.linkedin.com/in/amdennis87" target="_blank" class="single-social linkedin">
             <img src="../src/assets/linkedin.svg" alt="Linkedin logo">
           </a>
-          <a href="#" target="_blank" class="single-social facebook">
-            <img src="../src/assets/facebook.svg" alt="Facebook logo">
-          </a>
-          <a href="#" target="_blank" class="single-social instagram">
+          <a href="https://www.instagram.com/wonderouswandering" target="_blank" class="single-social instagram">
             <img src="../src/assets/instagram.svg" alt="Instagram logo">
           </a>
-          <a href="#" class="single-social mail">
+          <a href="mailto:amdennis1987@gmail.com" class="single-social mail">
             <img src="../src/assets/mail.svg" alt="Email me envelope">
           </a>
         </div>
